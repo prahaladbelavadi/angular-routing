@@ -1,3 +1,32 @@
 <p>
   home works!
 </p>
+
+<button [routerLink]="['/lion']" routerLinkActive="router-link-active">
+  Lion Component
+</button>
+
+
+<button [routerLink]="['/cat']" routerLinkActive="router-link-active">
+  Cat Component
+</button>
+
+
+<button [routerLink]="['/child']" routerLinkActive="router-link-active">
+  Load child component
+</button>
+
+
+<h1>Child components:</h1>
+
+<ul>
+  <li>
+    <button [routerLink]="['child', 'simba']" routerLinkActive="router-link-active">
+      simba
+    </button>
+  </li>
+</ul>
+
+<div style="text-align: right">
+  <router-outlet></router-outlet>
+</div>

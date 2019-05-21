@@ -10,9 +10,8 @@ const appRoutes: Routes = [
     { path: "", component: HomeComponent },
     { path: "lion", component: LionComponent },
     { path: "cat", component: CatComponent },
-    { path: "child" , children:[
-        { path:"",component: ChildComponent},
-        { path: "simba", component: SimbaComponent }
+    { path: "child" , component: ChildComponent, children: [
+        { path: "simba", component: SimbaComponent },
     ]}
 ];
 

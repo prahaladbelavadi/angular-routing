@@ -21,9 +21,26 @@
 
 <ul>
   <li>
+    <button [routerLink]="['child']" routerLinkActive="router-link-active">
+      Child
+    </button>
+  </li>
+
+  <li>
     <button [routerLink]="['child', 'simba']" routerLinkActive="router-link-active">
       simba
     </button>
   </li>
-</ul>
 
+  <li>
+    <button [routerLink]="['child', 'scar']" routerLinkActive="router-link-active">
+      Scar
+    </button>
+  </li>
+
+  <li>
+      <button [routerLink]="['child', 'scar', 'nala']" routerLinkActive="router-link-active">
+        Scar
+      </button>
+    </li>
+</ul>

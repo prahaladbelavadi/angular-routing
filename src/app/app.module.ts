@@ -8,6 +8,8 @@ import { LionComponent } from './lion/lion.component';
 import { CatComponent } from './cat/cat.component';
 import { SimbaComponent } from './simba/simba.component';
 import { ChildComponent } from './child/child.component';
+import { ScarComponent } from './scar/scar.component';
+import { NalaComponent } from './nala/nala.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ChildComponent } from './child/child.component';
     LionComponent,
     CatComponent,
     SimbaComponent,
-    ChildComponent
+    ChildComponent,
+    ScarComponent,
+    NalaComponent
   ],
   imports: [
     BrowserModule,
